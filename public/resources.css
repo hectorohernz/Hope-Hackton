@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
 
 #user-nav{
@@ -30,4 +31,13 @@
     font-size: 1.5em;
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+.resources-title{
+    z-index: 2;
+    color: #6A76FF;
+    margin-top: 25px;
+    text-align: end;
+    font-size: 60px;
+    margin-right: 25px;
 }
