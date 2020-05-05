@@ -1,7 +1,7 @@
 doctype html
 html(lang = 'en')
   head 
-    title Maps
+    title Welcome
     meta(charset = 'UTF-8')
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css")
@@ -11,6 +11,9 @@ html(lang = 'en')
       h1.index-header-text Welcome To UrPlace NYC Kiosk
       .helping-hand
         img(src="images/helping-hand.png", alt="Helping Hand").helping__hand__image
-      a(href="#").helping-btn Get Started
+      a(href="http://localhost:3000/feed").helping-btn Get Started
+    
     #desktop
       h1 Please Download On Moblie
+
+      script(src="index.js")

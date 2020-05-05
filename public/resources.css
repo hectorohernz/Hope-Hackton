@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#user-nav{
+    z-index: 10;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+}
+#user-nav ul{
+    display:flex;
+    text-decoration: none;
+    list-style:none;
+    border-top:2px solid rgba(0, 0, 0, 0.564) ;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background:#6A76FF;
+}
+#user-nav ul li{
+    margin-top: 7px;
+   width: 33%;
+   height: 80%;
+}
+
+#user-nav ul a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

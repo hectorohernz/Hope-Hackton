@@ -12,6 +12,12 @@ app.get("/", (req,res) => {
     res.render('index')
 }); 
 
+app.get("/feed",(req,res) => {
+    res.render('feed')
+}); 
+app.get("/resources", (req,res) => {
+    res.render("resources");
+}); 
 
 const port = process.env.PORT || 3000;
 app.listen (port, () => {
