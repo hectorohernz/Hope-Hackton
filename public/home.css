@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#main {
+  background: #25c0ff;
+  border: 10px solid #25c0ff;
+  color: white;
+  display: grid;
+  justify-content: center;
+  border-bottom-right-radius: 15em;
+  border-bottom-left-radius: 15em;
+  padding-bottom: 2em;
+  /* border-radius: 100px ,100px ,100px; */
+}
+#main h1 {
+  margin: 0;
+  display: flex;
+  font-size: 50px;
+}
+#main h2 {
+  margin: 0;
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+}
+.aboxflex {
+  padding: 2em;
+}
+.login {
+  display: grid;
+  justify-content: center;
+  color: white;
+}
+.button-primary,
+.login a,
+.login a:visited,
+.button-secondary {
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  border: 6px solid #25c0ff;
+  border-radius: 10%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: #25c0ff;
+  justify-content: center;
+  display: flex;
+}
+
+.button-Guest{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+#img{
+    display: flex;
+    background-image:url(./images/aniamted-homepage.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 230px;
+    height: 255px;
+}
+
+@media screen and (min-width: 700px) {
+  #main {
+    display: none;
+  }
+}
