@@ -32,6 +32,59 @@
     color: rgb(255, 255, 255);
 }
 
+.home-header {
+    color: #6A76FF;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.home-image {
+max-width: 200px;
+}
+
+#mission-statement {
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home-mission {
+    color: #6A76FF;
+}
+
+.home-header2 {
+    color: #6A76FF;
+    text-align: center;
+}
+
+.home-mission {
+    color: #6A76FF;
+}
+
+.resources-links {
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(2, 1fr );
+    padding-bottom: 40px;
+}
+
+
+.button {
+    width: 150px;
+    height: 100px;
+    color: white;
+    background-color: #6A76FF;
+    font-size: 15px;
+    margin: 0px auto;
+    border: black solid 2px;
+}
+
+
+
 @media screen and (min-width: 700px) { 
     #main{
         display: none;
