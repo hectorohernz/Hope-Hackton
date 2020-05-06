@@ -14,7 +14,41 @@ html(lang = 'en')
             li: a(href="http://localhost:3000/resources") Resources
 
     section#resources
-      .circle-container
       h1.resources-title Resources
-        #title-container
+      #resources-container
+        img(src="images/aniamted-homepage.jpg", alt="animated Cartoons").resources-images
+      h2.resources-h2-text Let's Get Started!
+      p.resources-p-text sample of “Lorem ipsum dolor sit” dummy copy text often used to show font face samples, for page layout and design as sample layout text by printers, graphic designers, Web designers, people creating Microsoft Word templates, and many other uses. It mimics the look of real text quite well as you design and set up your page layouts.
+      #carousel__wrapper
+        .object-container.get-started-container(data-btn='get started')
+          h3.object-container-text Get Started 
+        //  img(src="images/Food_Bank_icon.svg.png", alt="shelter").object-image
+
+        .object-container.shelter-container(data-btn='shelter')
+          h3.object-container-text Shelter 
+          img(src="images/shelter-imge.png", alt="shelter").object-image 
+
+        .object-container.food-bank-container(data-btn='food banks')
+          h3.object-container-text Food Banks 
+          img(src="images/Food_Bank_icon.svg.png", alt="shelter").object-image 
+
+        .object-container.mental-health-container(data-btn='mental health')
+          h3.object-container-text Mental Health
+          img(src="images/mental_health.png", alt="shelter").object-image
+
+        .object-container.clothing-container(data-btn='clothing')
+          h3.object-container-text Clothing 
+          img(src="images/Food_Bank_icon.svg.png", alt="shelter").object-image
+        
+        .object-container.other-container(data-btn='other')
+          h3.object-container-text Other  
+          img(src="images/Food_Bank_icon.svg.png", alt="shelter").object-image
+
+    #shelterContainer
+
+  script(src="resources.js")
+      
+
+
+
           
