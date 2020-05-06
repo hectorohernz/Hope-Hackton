@@ -16,6 +16,10 @@ app.get("/home", (req,res) => {
     res.render('home')
 });
 
+app.get("/signinpage", (req,res) => {
+    res.render('signinpage')
+});
+
 app.get("/feed",(req,res) => {
     res.render('feed')
 }); 
