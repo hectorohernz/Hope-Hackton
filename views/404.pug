@@ -1,0 +1,29 @@
+html(lang = 'en')
+  head 
+    title UrPlace
+    meta(charset = 'UTF-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css")
+    link(rel="stylesheet" href="/../resources.css" type="text/css")
+  body
+  main
+    nav#user-nav
+        ul
+            li: a(href="") Profile
+            li.nav--current: a(href="http://localhost:3000/feed") Home
+            li: a(href="http://localhost:3000/resources") Resources
+
+    section#error-container   
+        img(src="/../images/open-doodles-sleek.png", alt="running").error-image
+        h1.error-text 404 
+        h3 Page Doesn't Exist
+        a(href="http://localhost:3000/").btn Home
+      
+
+
+
+      
+
+
+
+          
