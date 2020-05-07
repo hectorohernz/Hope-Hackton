@@ -5,11 +5,12 @@ html(lang = 'en')
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css")
     link(rel="stylesheet" href="feed.css" type="text/css")
+   
   body
-  main
+  main#main
     nav#user-nav
         ul
-            li: a(href="") Profile
+            li: a(href="http://localhost:3000/home") Profile
             li.nav--current: a(href="http://localhost:3000/feed") Home
             li: a(href="http://localhost:3000/resources") Resources
 
@@ -24,11 +25,15 @@ html(lang = 'en')
         |We do this by providing a kiosk in town. This kiosk shows where our resources can be located and what you may need to do to access them.
         |We hope to be a light for those going through a dark time.
 
-  h2.home-header2 Services
+    h2.home-header2 Services
 
-.resources-links
-  a(class='button' href='//google.com') Food <br> Bank
-  a(class='button' href='//google.com') Mental <br> Health
-  a(class='button' href='//google.com') Shelter
-  a(class='button' href='//google.com') Clothing
-
+    .resources-links
+      a(class='button' href='http://localhost:3000/resources/foodbanks') Food <br> Bank
+      a(class='button' href='http://localhost:3000/resources/mentalhealth') Mental <br> Health
+      a(class='button' href='http://localhost:3000/resources/shelter') Shelter
+      a(class='button' href='http://localhost:3000/resources/clothes') Clothing
+#desktop
+      h1.desktop-title Now Open At Grand Central Terminal In New York
+      h3 Please Vist Our First Kiosk Location 
+      .desktop-container
+        img(src="../images/photo-shop-image.jpg", alt="image").desktop-image

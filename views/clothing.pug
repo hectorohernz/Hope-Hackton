@@ -6,10 +6,10 @@ html(lang = 'en')
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css")
     link(rel="stylesheet" href="../resources.css" type="text/css")
   body
-  main
+  main#main
     nav#user-nav
         ul
-            li: a(href="") Profile
+            li: a(href="http://localhost:3000/home") Profile
             li.nav--current: a(href="http://localhost:3000/feed") Home
             li: a(href="http://localhost:3000/resources") Resources
 
@@ -40,9 +40,12 @@ html(lang = 'en')
           .object-container.clothing-container(data-btn='clothing').active-container
             h3.object-container-text Clothing 
             img(src="../images/Food_Bank_icon.svg.png", alt="shelter").object-image
-        
-
     #clothing
+  #desktop
+      h1.desktop-title Now Open At Grand Central Terminal In New York
+      h3 Please Vist Our First Kiosk Location 
+      .desktop-container
+        img(src="../images/photo-shop-image.jpg", alt="image").desktop-image
 
 
 
