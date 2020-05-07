@@ -3,8 +3,8 @@
   padding: 0px;
 }
 #main {
-  background: #25c0ff;
-  border: 10px solid #25c0ff;
+  background: #6A76FF;
+  border: 10px solid #6A76FF;
   color: white;
   display: grid;
   justify-content: center;
@@ -40,13 +40,13 @@
   text-decoration: none;
   color: white;
   margin: 10px;
-  border: 6px solid #25c0ff;
+  border: 6px solid#6A76FF;
   border-radius: 10%;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 1px;
   padding-bottom: 1px;
-  background: #25c0ff;
+  background: #6A76FF;
   justify-content: center;
   display: flex;
 }
@@ -62,8 +62,8 @@
     background-image:url(./images/aniamted-home.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 230px;
-    height: 255px;
+    background-size: 300px;
+    height: 305px;
 }
 
 @media screen and (min-width: 700px) {

@@ -187,3 +187,28 @@
     border-radius: 15px;
     color: white;
 }
+#desktop{
+    display: none;
+}
+@media screen and (min-width: 700px) { 
+    #main{
+        display: none;
+    }
+    #desktop{
+        display: block;
+        background: #6A76FF;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desktop-title{
+        font-size: 2.5em;
+    }
+    .desktop-image{
+        height: 320px;
+        border-radius: 20px;
+    }
+}

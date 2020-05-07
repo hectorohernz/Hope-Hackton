@@ -6,8 +6,14 @@ html(lang = 'en')
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css")
     link(rel="stylesheet" href="home.css" type="text/css")
+    link(rel="stylesheet" href="../resources.css" type="text/css")
   body
-    #main 
+    #main
+      nav#user-nav
+        ul
+            li: a(href="http://localhost:3000/home") Profile
+            li.nav--current: a(href="http://localhost:3000/feed") Home
+            li: a(href="http://localhost:3000/resources") Resources
       h1 UrPlace
       br
       H2 NYC
@@ -19,4 +25,3 @@ html(lang = 'en')
         a(href="#").button-secondary Sign up
     a(href="#").button-Guest Guest Login
     #img
-   
