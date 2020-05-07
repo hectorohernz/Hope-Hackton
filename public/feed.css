@@ -85,6 +85,13 @@ max-width: 200px;
 #desktop{
     display: none;
 }
+.main-btn{
+    height: 60px;
+    z-index: 3;
+    position: fixed;
+    top: 20;
+    right: 20;
+}
 @media screen and (min-width: 700px) { 
     #main{
         display: none;
