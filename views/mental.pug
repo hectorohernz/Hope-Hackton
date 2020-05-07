@@ -4,7 +4,7 @@ html(lang = 'en')
     meta(charset = 'UTF-8')
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css")
-    link(rel="stylesheet" href="resources.css" type="text/css")
+    link(rel="stylesheet" href="../resources.css" type="text/css")
   body
   main
     nav#user-nav
@@ -16,39 +16,34 @@ html(lang = 'en')
     section#resources
       h1.resources-title Resources
       #resources-container
-        img(src="images/aniamted-homepage.jpg", alt="animated Cartoons").resources-images
-      h2.resources-h2-text Let's Get Started!
-      p.resources-p-text Welcome To Resources. We have picked out the most kind hearted people and compaines willing to help!  
+        img(src="../images/mind-iamge.png", alt="animated Cartoons").resources-images
+      h2.resources-h2-text Nearest Mental Health Office
+      p.resources-p-text “Do not judge my story by the chapter you walked in on.” - Anonymous
       #carousel__wrapper
-        a(href="")
-          .object-container.get-started-container(data-btn='get started').active-container
+        a(href="http://localhost:3000/resources")
+          .object-container.get-started-container(data-btn='get started')
             h3.object-container-text Get Started 
       
         a(href="http://localhost:3000/resources/shelter")
           .object-container.shelter-container(data-btn='shelter')
             h3.object-container-text Shelter 
-            img(src="images/shelter-imge.png", alt="shelter").object-image 
+            img(src="../images/shelter-imge.png", alt="shelter").object-image 
         a(href="http://localhost:3000/resources/foodbanks")
           .object-container.food-bank-container(data-btn='food banks')
             h3.object-container-text Food Banks 
-            img(src="images/Food_Bank_icon.svg.png", alt="shelter").object-image 
+            img(src="../images/Food_Bank_icon.svg.png", alt="shelter").object-image 
         a(href="http://localhost:3000/resources/mentalhealth")
-          .object-container.mental-health-container(data-btn='mental health')
+          .object-container.mental-health-container(data-btn='mental health').active-container
             h3.object-container-text Mental Health
-            img(src="images/mental_health.png", alt="shelter").object-image
+            img(src="../images/mental_health.png", alt="shelter").object-image
         a(href="http://localhost:3000/resources/clothes")
           .object-container.clothing-container(data-btn='clothing')
             h3.object-container-text Clothing 
-            img(src="images/Food_Bank_icon.svg.png", alt="shelter").object-image
-      
-
-    #get-started
+            img(src="../images/Food_Bank_icon.svg.png", alt="shelter").object-image
 
 
-
-
-      
+    #mental
 
 
 
-          
+  script(src="../mental.js")
