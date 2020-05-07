@@ -60,5 +60,6 @@ To Kill Nodemon:
     * Kelly Ornellas
     * Josue Flores
 
+# Licensed Under MIT 
 #  Thank you and Have Fun ! 
 
