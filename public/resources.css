@@ -71,6 +71,7 @@
     grid-column:1/span 10;
     grid-row: 5/ span 2;
     margin: 20px 50px;
+    font-weight:700 ;
 }
 #carousel__wrapper{
     grid-column:1/span 10;
