@@ -80,7 +80,7 @@ app.get('/resources/api/mentalhealth', (req,res) => {
     let url = `https://api.tomtom.com/search/2/search/${source}.json?key=${apiKey}&lat=40.752655&lon=-73.977295`;
     request(url, (error,response,body) => {
         if(error){
-           console.log(url);
+           res.render('404')
         } else{
             let info = JSON.parse(body);
             const results = info.results;
